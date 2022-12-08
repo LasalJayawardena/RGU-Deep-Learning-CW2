@@ -1,4 +1,4 @@
-# Experimentation results
+# Experimentation Results
 ##### 
 
 * We tested multiple models and the results are shown in the table below:-
