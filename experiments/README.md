@@ -36,3 +36,10 @@
 | mobilenetv2      | 2426410              | 12560988   | 0.432847939                                           | 43.83         |
 | vgg_16           | 14784810             | 626934620  | 0.281266794                                           | 10            |
 | vgg_19           | 20094506             | 1792691036 | 0.29450942                                            | 10            |
+
+
+## Performance Comparison
+![image001](https://user-images.githubusercontent.com/93707378/206622813-f06e21af-2381-4f19-a13f-a9d5c03234c1.png)
+![image003](https://user-images.githubusercontent.com/93707378/206622909-f5580092-a672-4353-9b3d-25aaaa9b0160.png)
+![image005](https://user-images.githubusercontent.com/93707378/206622916-63226c36-d62f-41a4-8195-3846eab0f778.png)
+![image007](https://user-images.githubusercontent.com/93707378/206622917-622aeb82-283c-4b1b-b1b8-d78fd7c6e5ac.png)
