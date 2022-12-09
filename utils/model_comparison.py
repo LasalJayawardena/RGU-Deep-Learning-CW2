@@ -9,6 +9,9 @@ class FixedDropout(tf.keras.layers.Dropout):
     return inputs
 
 def get_flops(model, batch_size=None):
+    """
+    Calculate FLOPS for a model
+    """
     if batch_size is None:
         batch_size = 1
 
@@ -24,6 +27,9 @@ def get_flops(model, batch_size=None):
     return flops.total_float_ops
 
 def get_model_paramters(model_path):
+    """
+    Calculate number of parameters for a model
+    """
     try:
         model = tf.keras.models.load_model(model_path)
     except:
@@ -33,6 +39,9 @@ def get_model_paramters(model_path):
     return params
 
 def get_inference_speed(model, data):
+    """
+    Calculate inference speed of a model in ms / image
+    """
     #  GPU warm up
     model.predict(data)
     

@@ -5,7 +5,10 @@ import tensorflow as tf
 import cv2
 
 def visualize_layer_feature_maps_for_image(model, layer_name, image, image_title, is_transfer_learning=True, num_filters=None, rows=8, columns=8, figsize=(12, 12)):
-    
+    """
+    Visualize Feature maps of a particular model layer
+    """
+
     if is_transfer_learning:
         inputs = model.layers[1].inputs
         outputs = [model.layers[1].get_layer(layer_name).output]
@@ -35,7 +38,10 @@ def visualize_layer_feature_maps_for_image(model, layer_name, image, image_title
 
 
 def visualize_layer_filters(model, layer_name, is_transfer_learning=True, num_filters=None, rows=8, columns=8, figsize=(12, 12)):
-    
+    """
+    Visualize Kernel filters of a particular model layer
+    """
+
     if is_transfer_learning:
         viz_layer = model.layers[1].get_layer(layer_name)
     else: 
@@ -61,6 +67,9 @@ def visualize_layer_filters(model, layer_name, is_transfer_learning=True, num_fi
 
 
 class Grad_CAM:
+    """
+    Implementation of Grad-CAM: Gradient-weighted Class Activation Mapping for any Model
+    """
     def __init__(self, model, layer_name, is_transfer_learning=True):
         if is_transfer_learning:
             self.model = model.layers[1] 
@@ -152,6 +161,9 @@ class Grad_CAM:
 
 
 class Saliency_Map:
+    """
+    Implementation of Saliency Maps for any Model
+    """
     def __init__(self, model):
         self.model = model
         

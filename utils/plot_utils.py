@@ -13,6 +13,9 @@ import random
 
 
 def plot_multi_class_roc_auc(y_test, y_pred, class_labels=['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat', 'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']):
+    """
+    Plot Roc Curves for a Multi-class Classification Task
+    """
 
     plt.style.use(['default'])
     if class_labels is None:
@@ -78,6 +81,9 @@ def plot_multi_class_roc_auc(y_test, y_pred, class_labels=['T-shirt/top', 'Trous
     plt.show()
 
 def plot_confusion_matrix(y_test, y_pred):
+    """
+    Plot the confusion matrix
+    """
     labels = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat', 'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
     
     cm = confusion_matrix(y_test, y_pred)
@@ -91,6 +97,9 @@ def plot_confusion_matrix(y_test, y_pred):
     plt.show()
 
 def visualize_data_subset(data, target, title="Train Data Visualization", num_images=25, display_labels=True):
+    """
+    Visualize a set of Images
+    """
     labels = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat', 'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
     # Set the figure size
     fig = plt.figure(figsize=(10,10))
@@ -108,6 +117,9 @@ def visualize_data_subset(data, target, title="Train Data Visualization", num_im
     fig.tight_layout(rect=[0, 0.03, 1, 0.95])
 
 def plot_history(history):
+    """
+    Plot history after model training
+    """
     loss_list = [s for s in history.history.keys() if 'loss' in s and 'val' not in s]
     val_loss_list = [s for s in history.history.keys() if 'loss' in s and 'val' in s]
     acc_list = [s for s in history.history.keys() if 'acc' in s and 'val' not in s]
