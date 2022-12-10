@@ -17,7 +17,7 @@ This project was done to choose the two best fitting deep learning algorithm for
  
 
 ## Visualization
-Visualization of images using T-SNE.
+Visualization of images using T-SNE (T-Distributed Stochastic Neighbor Embedding).
 ![T-SNE for all Test Images](https://user-images.githubusercontent.com/86690305/206841964-a6fac513-126e-45c1-b406-681a7fde4f89.png)
 
 ## Performance Comparison
