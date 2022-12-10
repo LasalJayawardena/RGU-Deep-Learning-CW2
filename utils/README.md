@@ -21,5 +21,11 @@ We implemented the following modern data augmentation techniques in the data_aug
      ![image](https://user-images.githubusercontent.com/86690305/206849213-d1956fc7-2784-4ad3-a570-8bc21a725759.png)
 
 
+#          
+#         
+#            
+## Feature Map Visualization
+![image](https://user-images.githubusercontent.com/86690305/206849449-b633c587-56aa-4a8c-8fd2-a55cee575bee.png)
 
-## Layer Visualization
+![image](https://user-images.githubusercontent.com/86690305/206849469-a8af6be8-5fbc-4e48-806d-0e46fc0fb52d.png)
+
