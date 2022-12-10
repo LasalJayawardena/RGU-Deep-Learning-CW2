@@ -16,7 +16,7 @@ This project was taken in order to experience the best fitting deep learning alg
 </div>
 
 ## Summary
-We tested 33 models on the Fashion_Mnist Dataset using Transfer Learning and chose the 2 best models.
+We tested 30 models on the Fashion_Mnist Dataset using Transfer Learning and chose the 2 best models.
  
 
 ## Visualization
