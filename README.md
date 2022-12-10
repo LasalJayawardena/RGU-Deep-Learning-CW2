@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT "MIT License")
 
-This project was taken in order to experience the best fitting deep learning algorithm for the Fashion-MNIST dataset. In this experiment we are looking around in to 30 different CNN models.
+This project was done to choose the two best fitting deep learning algorithm for the Fashion-MNIST dataset. In this experiment we are looking around in to 30 different CNN models.
 
 
 ## Technologies
@@ -14,12 +14,10 @@ This project was taken in order to experience the best fitting deep learning alg
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=TensorFlow&logoColor=white">
   <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=Keras&logoColor=white">
 </div>
-
-## Summary
-We tested 30 models on the Fashion_Mnist Dataset using Transfer Learning and chose the 2 best models.
  
 
 ## Visualization
+Visualization of images using T-SNE.
 ![T-SNE for all Test Images](https://user-images.githubusercontent.com/86690305/206841964-a6fac513-126e-45c1-b406-681a7fde4f89.png)
 
 ## Performance Comparison
