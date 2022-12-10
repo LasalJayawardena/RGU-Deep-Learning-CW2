@@ -15,7 +15,9 @@ This project was taken in order to experience the best fitting deep learning alg
   <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=Keras&logoColor=white">
 </div>
 
-
+## Summary
+We tested 33 models on the Fashion_Mnist Dataset using Transfer Learning and chose the 2 best models.
+ 
 
 ## Visualization
 ![T-SNE for all Test Images](https://user-images.githubusercontent.com/86690305/206841964-a6fac513-126e-45c1-b406-681a7fde4f89.png)
